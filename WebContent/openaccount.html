@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="validate_form.js">
+	
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Registration Form</h1>
+	<form name="open_account_form" method="post" action="OpenServlet"
+		onsubmit="return validate_open_account_form()">
+		Name:<br> <input type="text" name="name"><br> <br>
+		Adhaar:<br> <input type="text" name="adhaar"><br> <br>
+		Mobile:<br> <input type="text" name="mobile"><br> <br>
+		Initial Amount:<br> <input type="text" name="bal"><br>
+		<br> <input type="submit" value="CreateAccount">
+	</form>
+</body>
+</html>

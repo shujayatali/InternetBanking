@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="validate_form.js">
+	
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+	<form name="creditdebitform" action="CreditServlet" method="post"
+		onsubmit="return validate_accnum_balance()">
+		Account Num :<br> <input type="text" name="account_num"><br>
+		<br> Balance :<br> <input type="text" name="balance"><br>
+		<br> <input type="submit" value="CreditBalance">
+	</form>
+</body>
+</html>
